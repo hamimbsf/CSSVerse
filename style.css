@@ -1,3 +1,16 @@
+@font-face {
+  font-family: newSuperHeader;
+  src: url(/clash-regular.24a357c6.woff2);
+}
+@font-face {
+  font-family: newSuperHeavy;
+  src: url(/clash-heavy.0c306b59.woff2);
+}
+@font-face {
+  font-family: newSuperRg;
+  src: url(/supercelltext_w_rg.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +20,54 @@ html,
 body {
   height: 100%;
   width: 100%;
+}
+
+.banner {
+  background-image: url(./backgoround.jpg),
+    linear-gradient(to right, rgb(27, 17, 79), rgb(10, 11, 68));
+  /* background-blend-mode: multiply; */
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.header {
+  font-family: newSuperHeavy;
+  font-size: 50px;
+  text-shadow: 2px 5px 10px black;
+  margin-bottom: 1rem;
+}
+
+.banner-comp {
+  width: 50%;
+  text-align: center;
+  font-family: newSuperRg;
+  color: white;
+}
+
+.heroImg {
+  height: 80%;
+  width: 80%;
+}
+
+.purchaseBtn {
+  background: linear-gradient(to bottom, #ffda5e, #fcf9e5, #ffda5e, #ffb347);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-family: newSuperHeader;
+  margin-top: 1rem;
+  /* color: white; */
+  /* text-shadow: 2px 5px 10px black; */
+}
+
+.header-subtitle {
+  padding: 0 25%;
 }
