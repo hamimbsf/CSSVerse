@@ -1,14 +1,14 @@
 @font-face {
   font-family: newSuperHeader;
-  src: url(/clash-regular.24a357c6.woff2);
+  src: url(./clash-regular.24a357c6.woff2);
 }
 @font-face {
   font-family: newSuperHeavy;
-  src: url(/clash-heavy.0c306b59.woff2);
+  src: url(./clash-heavy.0c306b59.woff2);
 }
 @font-face {
   font-family: newSuperRg;
-  src: url(/supercelltext_w_rg.woff2);
+  src: url(./supercelltext_w_rg.woff2);
 }
 
 * {
